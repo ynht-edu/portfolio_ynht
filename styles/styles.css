@@ -452,4 +452,10 @@ img {
   height: 80px;
   border-radius: 50%;
   justify-self: center;
+  margin-bottom: var(--m1);
+}
+
+.testimonial__client {
+  font-size: var(--small-font-size);
+  color: var(--color-white);
 }/*# sourceMappingURL=styles.css.map */
