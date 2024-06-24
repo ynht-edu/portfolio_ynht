@@ -79,4 +79,12 @@ const swiper = new Swiper('.testimonial__container', {
     pagination: {
       el: '.swiper-pagination',
     },
+    breakpoint:{
+        640:{
+            slidesPerView: 2,
+        },
+        1024:{
+            slidesPerView: 3,
+        }
+    }
   });
