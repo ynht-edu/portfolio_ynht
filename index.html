@@ -157,34 +157,42 @@
             <span class="section-subtitle">Aku lagi ngapain dan udah bikin apa aja?</span>
             <h2 class="section-title">Aktivitas dan Portfolio</h2>
             <div class="portfolio__nav">
-                <span class="portfolio__item">Semua</span>
-                <span class="portfolio__item">CS</span>
-                <span class="portfolio__item">ECE</span>
-                <span class="portfolio__item">Edu</span>
+                <span class="portfolio__item active-portfolio" data-filter="all">Semua</span>
+                <span class="portfolio__item" data-filter=".cs">CS</span>
+                <span class="portfolio__item" data-filter=".ee">ECE</span>
+                <span class="portfolio__item" data-filter=".ed">Edu</span>
             </div>
 
             <div class="portfolio__container bd-grid">
-                <div class="portfolio__content">
+                <div class="portfolio__content mix cs">
                     <a href="#"><img src="assets/" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Theoretical compsci</span>
-                        <h2 class="portfolio__title">algoritma dan struktur data</h2>
+                        <h2 class="portfolio__title">Algoritma dan struktur data</h2>
                     </div>
                 </div>
-                <div class="portfolio__content">
+                <div class="portfolio__content mix cs">
                     <a href="#"><img src="assets/" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Theoretical compsci</span>
-                        <h2 class="portfolio__title">algoritma dan struktur data</h2>
+                        <h2 class="portfolio__title">Strategi algoritma</h2>
                     </div>
                 </div>
-                <div class="portfolio__content">
+                <div class="portfolio__content mix ee">
                     <a href="#"><img src="assets/" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
-                        <span class="portfolio__subtitle">Theoretical compsci</span>
-                        <h2 class="portfolio__title">algoritma dan struktur data</h2>
+                        <span class="portfolio__subtitle">Electrical engineering</span>
+                        <h2 class="portfolio__title">Pengantar analisis rangkaian</h2>
                     </div>
                 </div>
+                <div class="portfolio__content mix ed">
+                    <a href="#"><img src="assets/img/logica.webp" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Education</span>
+                        <h2 class="portfolio__title">Tutor and Problem Solver @Logica</h2>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -212,6 +220,8 @@
     </main>
     <i class='bx bxl-twitter' ></i>
 
+
+    <script src="scripts/mixitup.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

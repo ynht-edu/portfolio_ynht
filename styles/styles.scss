@@ -417,6 +417,11 @@ img{
     transform: scale(1.02);
 }
 
+.active-portfolio{
+    color: var(--color-yellow);
+    font-weight: font var(--font-semi-bold);
+}
+
 
 .testimonial__content{
     display: grid;
