@@ -85,6 +85,6 @@ const swiper = new Swiper('.testimonial__container', {
         },
         1024:{
             slidesPerView: 3,
-        }
+        },
     }
   });
