@@ -128,7 +128,6 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--color-primary);
 }
 
 /*nav*/
@@ -201,7 +200,6 @@ img {
 
 .scroll-header {
   background-color: var(--color-secondary);
-  box-shadow: 0 2px 4px var(--color-white80);
 }
 
 .scroll-header .nav__title, .scroll-header .nav__add, .scroll-header .nav__link {
@@ -248,7 +246,7 @@ img {
 
 .home__container {
   position: relative;
-  height: calc(100vh var(--header-height));
+  height: calc(100vh - var(--header-height));
   grid-template-rows: repeat(2, max-content);
   align-content: space-around;
   row-gap: 2rem;
@@ -657,4 +655,14 @@ img {
     -moz-column-gap: 6rem;
          column-gap: 6rem;
   }
+}
+.disclaimer {
+  position: relative;
+  top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.disclaimer__icon {
+  color: var(--color-white);
+  font-size: 2rem;
 }/*# sourceMappingURL=styles.css.map */
